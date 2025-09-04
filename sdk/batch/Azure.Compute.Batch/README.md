@@ -324,15 +324,7 @@ BatchApplicationPackageReference[] batchApplicationPackageReferences = new Batch
         }
     };
 
-BatchCertificateReference[] certificateReferences = new BatchCertificateReference[] {
-        new BatchCertificateReference("thumbprint","thumbprintAlgorithm")
-        {
-            StoreLocation = "storeLocation",
-            StoreName = "storeName"
-        }
-};
-
-BatchPoolReplaceOptions replaceOptions = new BatchPoolReplaceOptions(certificateReferences, batchApplicationPackageReferences, metadataItems);
+BatchPoolReplaceOptions replaceOptions = new BatchPoolReplaceOptions(batchApplicationPackageReferences, metadataItems);
 batchClient.ReplacePoolProperties("poolID", replaceOptions);
 ```
 #### Resize Pool
