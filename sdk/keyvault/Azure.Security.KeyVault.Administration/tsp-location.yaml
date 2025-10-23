@@ -1,6 +1,7 @@
 directory: specification/keyvault/Security.KeyVault.Administration
-commit: bc16bd3359c80260f1d1d523679fbe6806ce0813
+commit: fcbe58f4269bb742e064bc6a3c72a4cf5244744a
 repo: Azure/azure-rest-api-specs
+emitterPackageJsonPath: eng/azure-typespec-http-client-csharp-emitter-package.json
 
 additionalDirectories:
 - specification/keyvault/Security.KeyVault.BackupRestore/

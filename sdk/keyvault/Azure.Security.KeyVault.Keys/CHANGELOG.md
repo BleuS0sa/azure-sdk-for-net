@@ -1,5 +1,17 @@
 # Release History
 
+## 4.9.0-beta.1 (Unreleased)
+
+### Features Added
+
+### Breaking Changes
+
+### Bugs Fixed
+
+### Other Changes
+
+- The default service version is now "2025-06-01-preview".
+
 ## 4.8.0 (2025-06-27)
 
 ### Acknowledgments
